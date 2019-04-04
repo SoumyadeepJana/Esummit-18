@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<!-- begin::Head -->
+<head>
+	<meta charset="utf-8" />
+	<title>
+		Registration - Internship Camp '18
+	</title>
+	<meta name="description" content="Internship Camp '18">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--begin::Web font -->
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+	<script>
+		WebFont.load({
+			google: {"families":["Poppins:300,400,500,600,700","Roboto:300,400,500,600,700"]},
+			active: function() {
+				sessionStorage.fonts = true;
+			}
+		});
+	</script>
+	<link href="Icamp18/assets_dash/vendors/vendors.bundle.css" rel="stylesheet" type="text/css" />
+	<link href="Icamp18/assets_dash/css/style.css" rel="stylesheet" type="text/css" />
+	<!--end::Base Styles -->
+	<link rel="shortcut icon" href="Icamp18/assets_dash/demo/demo5/media/img/logo/favicon.ico" />
+	<!--script src='https://www.google.com/recaptcha/api.js'></script-->
+</head>
+<!-- end::Head -->
+<!-- end::Body -->
+<body class="m-page--wide m-header--fixed m-header--fixed-mobile m-footer--push m-aside--offcanvas-default"  >
+	<div class="m-grid m-grid--hor m-grid--root m-page">
+		<header class="m-grid__item		m-header "  data-minimize="minimize" data-minimize-offset="200" data-minimize-mobile-offset="200" >
+			<div class="m-header__top">
+				<div class="m-container m-container--responsive m-container--xxl m-container--full-height m-page__container">
+					<div class="m-stack m-stack--ver m-stack--desktop">
+						<div class="m-stack__item m-brand">
+							<div class="m-stack m-stack--ver m-stack--general m-stack--inline">
+								<div class="m-stack__item m-stack__item--middle m-brand__logo">
+									<a href="index.html" class="m-brand__logo-wrapper">
+										<img alt="logo" align="left" style="width: 100px; height: 50px;" src="Icamp18/assets_dash/img/logo.png"/>	
+									</a> 
+								</div>
+								<div class="m-stack__item m-stack__item--middle m-brand__tools">
+									<div class="m-dropdown m-dropdown--inline m-dropdown--arrow m-dropdown--align-left m-dropdown--align-push" data-dropdown-toggle="click" aria-expanded="true">
+										<a href="#" class="dropdown-toggle m-dropdown__toggle btn btn-outline-metal m-btn  m-btn--icon m-btn--pill">
+											<span>
+												Dashboard
+											</span>
+										</a>
+										<div class="m-dropdown__wrapper">
+											<span class="m-dropdown__arrow m-dropdown__arrow--left m-dropdown__arrow--adjust"></span>
+											<div class="m-dropdown__inner">
+												<div class="m-dropdown__body">
+													<div class="m-dropdown__content">
+														<ul class="m-nav">
+															<li class="m-nav__item">
+																<a href="/" class="m-nav__link">
+																	<i class="m-nav__link-icon fa fa-home"></i>
+																	<span class="m-nav__link-text">
+																		Main Website
+																	</span>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="m-stack__item m-stack__item--fluid m-header-head" id="m_header_nav">
+							<div id="m_header_topbar" class="m-topbar  m-stack m-stack--ver m-stack--general">
+								<div class="m-stack__item m-topbar__nav-wrapper">
+									<ul class="m-topbar__nav m-nav m-nav--inline">
+										<li class="m-nav__item m-topbar__notifications m-topbar__notifications--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-center 	m-dropdown--mobile-full-width" data-dropdown-toggle="click" data-dropdown-persistent="true">
+											<a href="#" class="m-nav__link m-dropdown__toggle" id="m_topbar_notification_icon">
+												<span class="m-nav__link-icon">
+													<span class="m-nav__link-icon-wrapper">
+														<i class="flaticon-music-2"></i>
+													</span>
+												</span>
+											</a>
+											<div class="m-dropdown__wrapper">
+												<span class="m-dropdown__arrow m-dropdown__arrow--center"></span>
+												<div class="m-dropdown__inner">
+													<div class="m-dropdown__header m--align-center" style="background: url(Icamp18/assets_dash/img/misc/notification_bg.jpg); background-size: cover;">
+														<span class="m-dropdown__header-title">
+															0 New
+														</span>
+														<span class="m-dropdown__header-subtitle">
+															User Notifications
+														</span>
+													</div>
+													<div class="m-dropdown__body">
+														<div class="m-dropdown__content">
+															<div class="m-stack m-stack--ver m-stack--general" style="min-height: 180px;">
+																<div class="m-stack__item m-stack__item--center m-stack__item--middle">
+																	<div class="m-scrollable" data-scrollable="true" data-max-height="250" data-mobile-max-height="200">
+																		
+																		<div class="m-stack__item m-stack__item--center m-stack__item--middle">
+																			<span class="">
+																				All caught up!
+																				<br>
+																				No new logs.
+																			</span>
+																		</div>
+
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li class="m-nav__item m-topbar__user-profile m-topbar__user-profile--img  m-dropdown m-dropdown--medium m-dropdown--arrow m-dropdown--header-bg-fill m-dropdown--align-right m-dropdown--mobile-full-width m-dropdown--skin-light" data-dropdown-toggle="click">
+												<a href="#" class="m-nav__link m-dropdown__toggle">
+													<span class="m-topbar__welcome">
+														Hello,&nbsp;
+													</span>
+													<span class="m-topbar__username">
+														New User &nbsp;
+													</span>
+													<span class="m-topbar__userpic">
+														<img src="Icamp18/assets_dash/img/user-placeholder.png" class="m--img-rounded m--marginless m--img-centered" alt=""/>
+													</span>
+												</a>
+												<div class="m-dropdown__wrapper">
+													<span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
+													<div class="m-dropdown__inner">
+														<div class="m-dropdown__header m--align-center" style="background: url(Icamp18/assets_dash/misc/user_profile_bg.jpg); background-size: cover;">
+															<div class="m-card-user m-card-user--skin-dark">
+																<div class="m-card-user__pic">
+																	<img src="Icamp18/assets_dash/img/user-placeholder.png" class="m--img-rounded m--marginless" alt=""/>
+																</div>
+																<div class="m-card-user__details">
+																	<span class="m-card-user__name m--font-weight-500">
+																		New User
+																	</span>
+																	<a href="" class="m-card-user__email m--font-weight-300 m-link">
+																		someone@example.com
+																	</a>
+																</div>
+															</div>
+														</div>
+														<div class="m-dropdown__body">
+															<div class="m-dropdown__content">
+																<ul class="m-nav m-nav--skin-light">
+
+																	<li class="m-nav__item">
+																		<a href="profile.html" class="m-nav__link">
+																			<i class="m-nav__link-icon flaticon-info"></i>
+																			<span class="m-nav__link-text">
+																				FAQ
+																			</span>
+																		</a>
+																	</li>
+																	<li class="m-nav__item">
+																		<a href="profile.html" class="m-nav__link">
+																			<i class="m-nav__link-icon flaticon-lifebuoy"></i>
+																			<span class="m-nav__link-text">
+																				Support
+																			</span>
+																		</a>
+																	</li>
+																	<li class="m-nav__separator m-nav__separator--fit"></li>
+
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</li>											
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="m-header__bottom">
+					<div class="m-container m-container--responsive m-container--xxl m-container--full-height m-page__container">
+						<div class="m-stack m-stack--ver m-stack--desktop">
+							<div class="m-stack__item m-stack__item--middle m-stack__item--fluid">
+								<button class="m-aside-header-menu-mobile-close  m-aside-header-menu-mobile-close--skin-light " id="m_aside_header_menu_mobile_close_btn">
+									<i class="la la-close"></i>
+								</button>
+								<div id="m_header_menu" class="m-header-menu m-aside-header-menu-mobile m-aside-header-menu-mobile--offcanvas  m-header-menu--skin-dark m-header-menu--submenu-skin-light m-aside-header-menu-mobile--skin-light m-aside-header-menu-mobile--submenu-skin-light "  >
+									<ul class="m-menu__nav  m-menu__nav--submenu-arrow ">
+										<li class="m-menu__item "  aria-haspopup="true">
+											<a  href="https://esummit.org.in/dashboard" class="m-menu__link ">
+												<span class="m-menu__item-here"></span>
+												<span class="m-menu__link-text">
+													Home
+												</span>
+											</a>
+										</li>
+										
+									</ul>
+								</div>
+							</div>
+							<div class="m-stack__item m-stack__item--middle m-dropdown m-dropdown--arrow m-dropdown--large m-dropdown--mobile-full-width m-dropdown--align-right m-dropdown--skin-light m-header-search m-header-search--expandable m-header-search--skin-" id="m_quicksearch" data-search-type="default">
+								<form class="m-header-search__form">
+									<div class="m-header-search__wrapper">
+										<span class="m-header-search__icon-search" id="m_quicksearch_search">
+											<i class="la la-search"></i>
+										</span>
+										<span class="m-header-search__input-wrapper">
+											<input autocomplete="off" type="text" name="q" class="m-header-search__input" value="" placeholder="Search..." id="m_quicksearch_input">
+										</span>
+										<span class="m-header-search__icon-close" id="m_quicksearch_close">
+											<i class="la la-remove"></i>
+										</span>
+										<span class="m-header-search__icon-cancel" id="m_quicksearch_cancel">
+											<i class="la la-remove"></i>
+										</span>
+									</div>
+								</form>
+								<div class="m-dropdown__wrapper">
+									<div class="m-dropdown__arrow m-dropdown__arrow--center"></div>
+									<div class="m-dropdown__inner">
+										<div class="m-dropdown__body">
+											<div class="m-dropdown__scrollable m-scrollable" data-scrollable="true" data-max-height="300" data-mobile-max-height="200">
+												<div class="m-dropdown__content m-list-search m-list-search--skin-light"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="m-grid__item m-grid__item--fluid m-grid m-grid--hor-desktop m-grid--desktop m-body">
+				<div class="m-grid__item m-grid__item--fluid  m-grid m-grid--ver	m-container m-container--responsive m-container--xxl m-page__container">
+					<div class="m-grid__item m-grid__item--fluid m-wrapper">						
+						<div class="m-content">
+
+							<!--Begin::Main Portlet-->
+							<div class="m-portlet m-portlet--full-height">
+								<!--begin: Portlet Head-->
+								<div class="m-portlet__head">
+									<div class="m-portlet__head-caption">
+										<div class="m-portlet__head-title">
+											<h3 class="m-portlet__head-text">
+												Startup Registration
+												<small>Internship Camp '18</small>
+											</h3>
+										</div>
+									</div>
+									<div class="m-portlet__head-tools">
+										<ul class="m-portlet__nav">
+											<li class="m-portlet__nav-item">
+												<a href="#" data-toggle="m-tooltip" class="m-portlet__nav-link m-portlet__nav-link--icon" data-direction="left" data-width="auto" title="Get help with filling up this form">
+													<i class="flaticon-info m--icon-font-size-lg3"></i>
+												</a>    
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!--end: Portlet Head-->
+							<!--begin: Form Wizard-->
+							<div class="m-wizard m-wizard--2 m-wizard--success" id="m_wizard">
+								<!--begin: Message container -->
+								<div class="m-portlet__padding-x">
+									<!-- Here you can put a message or alert -->
+								</div>
+								<!--end: Message container -->
+        <!--begin: Form Wizard Head -->
+								<div class="m-wizard__head m-portlet__padding-x">
+									<!--begin: Form Wizard Progress -->
+									<div class="m-wizard__progress">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<!--end: Form Wizard Progress -->  
+            <!--begin: Form Wizard Nav -->
+                                                            <div class="m-wizard__nav">
+                                                                  <div class="m-wizard__steps">
+                                                                        <div class="m-wizard__step m-wizard__step--current"  data-wizard-target="#m_wizard_form_step_1">
+                                                                              <a href="#"  class="m-wizard__step-number">
+                                                                                    <span><i class="fa  flaticon-placeholder"></i></span> 
+                                                                              </a>
+                                                                              <div class="m-wizard__step-info">
+                                                                                    <div class="m-wizard__step-title">
+                                                                                          1. Company Details
+                                                                                    </div>
+
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="m-wizard__step" data-wizard-target="#m_wizard_form_step_2">
+                                                                              <a href="#" class="m-wizard__step-number">
+                                                                                    <span><i class="fa  flaticon-layers"></i></span> 
+                                                                              </a>
+                                                                              <div class="m-wizard__step-info">
+                                                                                    <div class="m-wizard__step-title">
+                                                                                          2. Intership Details
+                                                                                    </div>
+
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="m-wizard__step" data-wizard-target="#m_wizard_form_step_3">
+                                                                              <a href="#" class="m-wizard__step-number">
+                                                                                    <span><i class="fa  flaticon-layers"></i></span> 
+                                                                              </a>
+                                                                              <div class="m-wizard__step-info">
+                                                                                    <div class="m-wizard__step-title">
+                                                                                          3. Last Step
+                                                                                    </div>
+
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                            <!--end: Form Wizard Nav -->
+								</div>
+								<!--end: Form Wizard Head -->  
+        <!--begin: Form Wizard Form-->
+								<div class="m-wizard__form">
+									<!--
+                1) Use m-form--label-align-left class to alight the form input lables to the right
+                2) Use m-form--state class to highlight input control borders on form validation
+            -->
+									<form class="m-form m-form--label-align-left- m-form--state-" id="m_form" method="POST" action="php/regSubmit.php" enctype="multipart/form-data">
+										<!--begin: Form Body -->
+										<div class="m-portlet__body">
+											<!--begin: Form Wizard Step 1-->
+											<div class="m-wizard__form-step m-wizard__form-step--current" id="m_wizard_form_step_1">
+												<div class="row">
+													<div class="col-xl-8 offset-xl-2">
+														<div class="m-form__section m-form__section--first">
+															<div class="form-group m-form__group row">
+                                                      <label class="col-xl-3 col-lg-3 col-form-label">* Company Name :</label>
+                                                      <div class="col-xl-9 col-lg-9">
+                                                            <input type="text" name="name" class="form-control m-input">
+                                                      </div>
+                                                </div>
+
+                                                <div class="form-group m-form__group row">
+                                                      <label class="col-xl-3 col-lg-3 col-form-label">* Company Website :</label>
+                                                      <div class="col-xl-9 col-lg-9">
+                                                            <input type="text" name="website" class="form-control m-input">
+                                                      </div>
+                                                </div>                                    
+
+                                                <div class="form-group m-form__group row">
+                                                      <label class="col-xl-3 col-lg-3 col-form-label">* Current Operational Areas:</label>
+                                                      <div class="col-xl-9 col-lg-9">
+                                                            <input type="text" name="op_areas" class="form-control m-input">
+                                                      </div>
+                                                </div>
+
+                                                <div class="form-group m-form__group row">
+                                                      <label class="col-xl-3 col-lg-3 col-form-label">* Company Social media links:</label>
+                                                      <div class="col-xl-9 col-lg-9">
+                                                            <input type="text" name="social_links" class="form-control m-input">
+                                                      </div>
+                                                </div>
+
+                                                <div class="form-group m-form__group row">
+                                                      <label class="col-xl-3 col-lg-3 col-form-label">* Company Reg TIN :</label>
+                                                      <div class="col-xl-9 col-lg-9">
+                                                            <input type="text" name="startup_tin" class="form-control m-input">
+
+                                                      </div>
+                                                </div>
+
+                                                <div class="form-group m-form__group row">
+                                                      <label class="col-xl-3 col-lg-3 col-form-label">Company Logo :</label>
+                                                      <label class="col-xl-4 col-lg-4 custom-file">
+                                                            <input type="file" id="logo" class="col-xl-3 col-lg-3 custom-file-input" name="startup_logo">
+                                                            <span class="custom-file-control form-control"></span>
+                                                      </label>
+                                                </div>
+														</div>
+														<div class="m-separator m-separator--dashed m-separator--lg"></div>
+														<div class="m-form__section">
+															<div class="m-form__heading">
+																 <h3 class="m-form__heading-title">
+                                                            Contact Details 
+
+                                                      </h3>
+															</div>
+															 <div class="form-group m-form__group row">
+                                                      <label class="col-xl-3 col-lg-3 col-form-label">* Contact Person Name:</label>
+                                                      <div class="col-xl-9 col-lg-9">
+                                                            <input type="text" name="poc_name" class="form-control m-input">
+                                                      </div>
+                                                </div>      
+                                                <div class="form-group m-form__group row">
+                                                      <label class="col-xl-3 col-lg-3 col-form-label">* Email:</label>
+                                                      <div class="col-xl-9 col-lg-9">
+                                                            <input type="email" name="email" class="form-control m-input">
+
+                                                      </div>
+                                                </div>
+                                                <div class="form-group m-form__group row">
+                                                      <label class="col-xl-3 col-lg-3 col-form-label">Phone</label>
+                                                      <div class="col-xl-9 col-lg-9">
+                                                            <div class="input-group">
+                                                                  <div class="input-group-prepend"><span class="input-group-text"><i class="la la-phone"></i></span>&nbsp;</div>
+                                                                  <input type="text" id="phone" class="form-control m-input">
+                                                            </div>
+                                                      </div>
+                                                </div>
+
+
+                                                <div class="form-group m-form__group row">
+                                                      <label class="col-xl-3 col-lg-3 col-form-label">* Address Line :</label>
+                                                      <div class="col-xl-9 col-lg-9">
+                                                            <input type="text" name="address" class="form-control m-input">
+                                                            <span class="m-form__help">Street address, P.O. box, company name, c/o</span>
+                                                      </div>
+                                                </div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!--end: Form Wizard Step 1-->
+                    <!--begin: Form Wizard Step 2-->
+											<div class="m-wizard__form-step" id="m_wizard_form_step_2">
+												<div class="row">
+													<div class="col-xl-8 offset-xl-2">
+														<div class="m-form__section m-form__section--first">
+															
+															<div class="form-group m-form__group row">
+                                                            <label class="col-xl-3 col-lg-3 col-form-label">* Internship Location:</label>
+                                                            <div class="col-xl-9 col-lg-9">
+                                                                  <input type="text" name="intern_loc" class="form-control m-input">
+                                                                  <span class="m-form__help">Location of the Internship</span>
+                                                            </div>
+                                                      </div>
+
+                                                      <div class="form-group m-form__group row">
+                                                            <label class="col-xl-3 col-lg-3 col-form-label">* Internship Profile:</label>
+                                                            <div class="col-xl-9 col-lg-9">
+                                                                  <input type="text" name="intern_pro" class="form-control m-input">
+                                                                  <span class="m-form__help">What are the profiles for the internship?</span>
+                                                            </div>
+                                                      </div>      
+
+                                                      <div class="form-group m-form__group row">
+                                                            <label class="col-xl-3 col-lg-3 col-form-label">* Internship Duration</label>
+                                                            <div class="col-lg-4 m-form__group-sub">
+                                                                  <div class="input-group">
+                                                                  </div>
+                                                                  <select class="form-control m-input" name="intern_dur">
+                                                                        <option value="01" selected>
+                                                                              01 Month
+                                                                        </option>
+                                                                        <option value="02">
+                                                                              02 Months
+                                                                        </option>
+                                                                        <option value="03">
+                                                                              03 Months
+                                                                        </option>
+                                                                        <option value="06">
+                                                                              06 Months
+                                                                        </option>
+                                                                        <option value='custom' data-input-value="Some custom value for the input">Others
+                                                                        </option>         
+                                                                  </select>
+                                                                  <input type="number" name="intern_dur2" class="form-control m-input" placeholder="Custom">                               
+                                                                  <span class="m-form__help">What will be the duration of the internship? (in Months)</span>                                                  
+                                                            </div>
+                                                      </div>
+
+
+                                                      <div class="form-group m-form__group row">
+                                                            <label class="col-xl-3 col-lg-3 col-form-label">* Courses Preferred:</label>
+                                                            <div class="col-xl-9 col-lg-9">
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="B.Tech">
+                                                                        B.Tech
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="BBA">
+                                                                        BBA
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid  m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="BCA">
+                                                                        BCA
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="B.SC">
+                                                                        B.SC
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="batch" value="BA LLB/BBA LLB/B.Sc. LLB">
+                                                                        BA LLB/BBA LLB/B.Sc. LLB
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="B.Arch">
+                                                                        B.Arch
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="Bachelor of Design(Fashion/Textile)">
+                                                                        Bachelor of Design(Fashion/Textile)
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="Bachelor in Film and television promotion">
+                                                                        Bachelor in Film and television promotion
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="M.Tech">
+                                                                        M.Tech
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="MBA">
+                                                                        MBA
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="MCA">
+                                                                        MCA
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="Biotechnology">
+                                                                        Biotechnology
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="Master of Mass Communication">
+                                                                        Master of Mass Communication
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="Master of Public Health">
+                                                                        Master of Public Health
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="Master of Hospital Administartrion">
+                                                                        Master of Hospital Administartrion
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="LLM">
+                                                                        LLM
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="courses" value="PHD">
+                                                                        PHD
+                                                                        <span></span>
+                                                                  </label>
+                                                            </div>
+                                                      </div>
+
+                                                      <div class="form-group m-form__group row">
+                                                            <label class="col-xl-3 col-lg-3 col-form-label">* Graduation Batch Preferred:</label>
+                                                            <div class="col-xl-9 col-lg-9">
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="batch" value="All">
+                                                                        All
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="batch" value="2017">
+                                                                        2017
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid  m-checkbox--brand">
+                                                                        <input type="checkbox" name="batch" value="2018">
+                                                                        2018 (4th Year)
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="batch" value="2019">
+                                                                        2019 (3rd Year)
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="batch" value="2020">
+                                                                        2020 (2nd Year)
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="batch" value="2021">
+                                                                        2021 (1st Year)
+                                                                        <span></span>
+                                                                  </label>
+                                                                  <label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+                                                                        <input type="checkbox" name="batch" value="2022">
+                                                                        2022
+                                                                        <span></span>
+                                                                  </label>
+
+                                                            </div>
+                                                      </div>
+
+                                                      <div class="form-group m-form__group row">
+                                                            <label class="col-xl-3 col-lg-3 col-form-label">* Internship Areas:</label>
+                                                            <div class="col-xl-9 col-lg-9">
+                                                                  <textarea rows="6" name="intern_area" class="form-control m-input">
+                                                                  </textarea>
+                                                                  <span class="m-form__help">Areas of internships offered and detailed description of requirement from interns.</span>
+                                                            </div>
+                                                      </div>
+                                                      <div class="form-group m-form__group row">
+                                                            <label class="col-xl-3 col-lg-3 col-form-label">* Selection Criteria:</label>
+                                                            <div class="col-xl-9 col-lg-9">
+                                                                  <textarea  rows="6" name="sel_criteria" class="form-control m-input">
+                                                                  </textarea>
+
+                                                            </div>
+                                                      </div>
+                                                      <div class="form-group m-form__group row">
+                                                            <label class="col-xl-3 col-lg-3 col-form-label">* Selection Process:</label>
+                                                            <div class="col-xl-9 col-lg-9">
+                                                                  <textarea  rows="6" name="sel_process" class="form-control m-input">
+                                                                  </textarea>
+                                                                  <span class="m-form__help">Process of selection (Including timelines and deadlines)</span>
+                                                            </div>
+                                                      </div>
+                                                      <div class="form-group m-form__group row">
+                                                            <label class="col-xl-3 col-lg-3 col-form-label">* Requirements :</label>
+                                                            <div class="col-xl-9 col-lg-9">
+                                                                  <textarea  rows="6" name="requirement" class="form-control m-input">
+                                                                  </textarea>
+                                                                  <span class="m-form__help">Requirements/needs for conducting selections?</span>
+                                                            </div>
+                                                      </div>
+                                                      <div class="form-group m-form__group row">
+                                                            <label class="col-xl-3 col-lg-3 col-form-label">* Maximum Intake :</label>
+                                                            <div class="col-lg-4 m-form__group-sub">
+                                                                  <input type="number" name="max_intake" 
+                                                                  min="1"class="form-control m-input" placeholder="Custom">
+
+                                                            </div>
+                                                      </div>
+                                                      <div class="form-group m-form__group row">
+                                                            <div class="col-lg-6 m-form__group-sub">
+                                                                  <label class="form-control-label">
+                                                                        * Internship Type:
+                                                                  </label>
+                                                                  <div class="m-radio-inline">
+                                                                        <label class="m-radio m-radio--solid m-radio--brand">
+                                                                              <input type="radio" name="stipend" value="no">
+                                                                              Without Stipend   
+                                                                              <span></span>
+                                                                        </label>
+                                                                        <label class="m-radio m-radio--solid m-radio--brand">
+                                                                              <input type="radio" name="stipend" value="yes">
+                                                                              With Stipend
+                                                                              <span></span>
+                                                                        </label>
+                                                                        <input type="text" name="stipend2" placeholder="Stipend Amount" class="form-control m-input">
+                                                                  </div>
+                                                                  <span class="m-form__help">
+                                                                        Will the internship be paid or unpaid? If paid, what will be the amount of stipend?
+                                                                  </span>
+                                                            </div>
+                                                      </div>
+
+                                                      <div class="form-group m-form__group row">
+                                                            <div class="col-lg-6 m-form__group-sub">
+                                                                  <label class="form-control-label">
+                                                                        * PPO Offers:
+                                                                  </label>
+                                                                  <div class="m-radio-inline">
+                                                                        <label class="m-radio m-radio--solid m-radio--brand">
+                                                                              <input type="radio" name="ppo" checked="" value="no">
+                                                                              No
+                                                                              <span></span>
+                                                                        </label>
+                                                                        <label class="m-radio m-radio--solid m-radio--brand">
+                                                                              <input type="radio" name="ppo" value="yes">
+                                                                              Yes
+                                                                              <span></span>
+                                                                        </label>
+                                                                        <textarea class="form-control" name="ppo" maxlength="8"  placeholder="Enter Details" rows="6"></textarea>
+                                                                  </div>
+                                                                  <span class="m-form__help">
+                                                                        Will you be offering PPO offers? If yes, please mention the duration of work term and other associated details.
+                                                                  </span>
+                                                            </div>
+                                                      </div>
+
+                                                      <div class="form-group m-form__group row">
+                                                            <div class="col-lg-6 m-form__group-sub">
+                                                                  <label class="col-xl-3 col-lg-3 col-form-label">Extra Notes :</label>
+                                                                  <textarea class="form-control" name="notes" maxlength="8" rows="6"></textarea>
+                                                            </div>
+                                                      </div>
+
+
+
+														</div>
+													</div>
+												</div>
+											</div>
+											<!--end: Form Wizard Step 2--> 
+                    <!--begin: Form Wizard Step 3-->
+											<div class="m-wizard__form-step" id="m_wizard_form_step_3">
+												<div class="row">
+													<div class="col-xl-8 offset-xl-2">
+														<div class="col-xl-8 offset-xl-2">
+                                          <h3 class="m-form__heading-title">
+                                                User Verification
+                                          </h3>
+														<div class="m-separator m-separator--dashed m-separator--lg"></div>
+														<div class="form-group m-form__group m-form__group--sm row">
+															<div class="col-xl-12">
+																<div class="m-checkbox-inline">
+																	<label class="m-checkbox m-checkbox--solid m-checkbox--brand">
+																		<input type="checkbox" name="accept" value="1">
+																		Click here to indicate that you have read and agree to the terms presented in the Terms and Conditions agreement
+																		<span></span>
+																	</label>
+																</div>
+															</div>
+														</div>
+														<div class="form-group m-form__group m-form__group--sm row">
+															<div class="col-xl-12">
+															  <br>	
+																		
+																<!---div class="g-recaptcha" data-sitekey="6LfpkkAUAAAAAJo0WD0U-K-67oA-rLg8UzL5a1V-">
+																</div-->
+																<span></span>
+																	
+															  
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!--end: Form Wizard Step 3-->
+										</div>
+										<!--end: Form Body -->
+                <!--begin: Form Actions -->
+										<div class="m-portlet__foot m-portlet__foot--fit m--margin-top-40">
+											<div class="m-form__actions">
+												<div class="row">
+													<div class="col-lg-2"></div>
+													<div class="col-lg-4 m--align-left">
+														<a href="#" class="btn btn-secondary m-btn m-btn--custom m-btn--icon" data-wizard-action="prev">
+															<span>
+																<i class="la la-arrow-left"></i>
+																&nbsp;&nbsp;
+																<span>
+																	Back
+																</span>
+															</span>
+														</a>
+													</div>
+													<div class="col-lg-4 m--align-right">
+														<a href="#" class="btn btn-primary m-btn m-btn--custom m-btn--icon" data-wizard-action="submit">
+															<span>
+																<i class="la la-check"></i>
+																&nbsp;&nbsp;
+																<span>
+																	Submit
+																</span>
+															</span>
+														</a>
+														<a href="#" class="btn btn-warning m-btn m-btn--custom m-btn--icon" data-wizard-action="next">
+															<span>
+																<span>
+																	Continue
+																</span>
+																&nbsp;&nbsp;
+																<i class="la la-arrow-right"></i>
+															</span>
+														</a>
+													</div>
+													<div class="col-lg-2"></div>
+												</div>
+											</div>
+										</div>
+										<!--end: Form Actions -->
+									</form>
+								</div>
+								<!--end: Form Wizard Form-->
+							</div>
+							<!--end: Form Wizard-->
+						</div>
+<!--End::Main Portlet-->	
+
+</div>
+</div>
+</div>
+</div>
+<footer class="m-grid__item m-footer ">
+	<div class="m-container m-container--responsive m-container--xxl m-container--full-height m-page__container">
+		<div class="m-footer__wrapper">
+			<div class="m-stack m-stack--flex-tablet-and-mobile m-stack--ver m-stack--desktop">
+				<div class="m-stack__item m-stack__item--left m-stack__item--middle m-stack__item--last">
+					<span class="m-footer__copyright">
+						2017 &copy; 
+						<a href="https://ecell.org.in" target="_blank" class="m-link">
+							KIIT E-Cell, 
+						</a>
+						&nbsp;	Made with <span style="color: #e74c3c">&hearts;</span> by 
+						<a href="https://ecell.org.in/team#tech" target="_blank" class="m-link">
+						Ecell Techies</a>
+					</span>
+				</div>
+				<div class="m-stack__item m-stack__item--right m-stack__item--middle m-stack__item--first">
+					<ul class="m-footer__nav m-nav m-nav--inline m--pull-right">
+						<li class="m-nav__item">
+							<a href="https://ecell.org.in/about-us" target="_blank" class="m-nav__link">
+								<span class="m-nav__link-text">
+									About
+								</span>
+							</a>
+						</li>									
+						<li class="m-nav__item">
+							<a href="#" class="m-nav__link">
+								<span class="m-nav__link-text">
+									T&C
+								</span>
+							</a>
+						</li>
+						<li class="m-nav__item m-nav__item--last">
+							<a href="//kiit.ac.in" target="_blank" class="m-nav__link" data-toggle="m-tooltip" title="Kalinga Institute of Industrial Technology" data-placement="left">
+								<span class="m-nav__link-text">
+									KIIT
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+</div>
+
+<div class="m-scroll-top m-scroll-top--skin-top" data-toggle="m-scroll-top" data-scroll-offset="500" data-scroll-speed="300">
+	<i class="la la-arrow-up"></i>
+</div>
+<ul class="m-nav-sticky" style="margin-top: 30px;">
+	<li class="m-nav-sticky__item" data-toggle="m-tooltip" title="Report Bug" data-placement="left">
+		<a href="#">
+			<i class="la la-life-ring"></i>
+		</a>
+	</li>
+</ul>
+<script src="Icamp18/assets_dash/js/jquery-3.2.1.min.js"></script>
+<script src="Icamp18/assets_dash/js/jquery-migrate-3.0.1.min.js"></script> 
+<script src="Icamp18/assets_dash/vendors/vendors.bundle.js" type="text/javascript"></script>
+<script src="Icamp18/assets_dash/js/scripts.bundle.js" type="text/javascript"></script>
+<script src="Icamp18/assets_dash/js/sweetalert2.js" type="text/javascript"></script>
+<script src="Icamp18/assets_dash/js/wizard.js" type="text/javascript"></script>
+</body>
+<!-- end::Body -->
+</html>

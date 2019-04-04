@@ -1,0 +1,10 @@
+{
+    "name":"KIIT E-Summit'18",
+    "short_name":"E-Summit",
+    "start_url":"/index.html",
+    "display":"standalone",
+    "orientation":"portrait",
+    "background-color":"",
+    "theme_color":"#17202A"
+    
+}
