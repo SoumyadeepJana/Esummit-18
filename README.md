@@ -1,0 +1,3 @@
+# Esummit-18
+
+This project was built for E-Summit 2018,a flagship event hosted by KIIT Entrepreneurship Cell.It contained the information regarding the speaker's list,itinerary of the event and other informations regarding the entire event.This website allowed students to register for different events,make payments through integrated payment services,a user-friendly dashboard for the participants to track their event status.The website also contained a dashboard for the organizing team to monitor the payments of participants,generate ID cards and E-certificates and distribute them through automated mails using Simple Email Service(SES) of AWS integrated in the website.
